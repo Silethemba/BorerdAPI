@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">API Test</string>
+    <string name="activity">Activity</string>
+    <string name="type">Type</string>
+    <string name="fetch">Fetch</string>
+    <string name="myactivity">ACTIVITY</string>
+    <string name="types">TYPE</string>
+    <string name="participants">PARTICIPANTS</string>
+    <string name="price">PRICE</string>
+    <string name="key">KEY</string>
+    <string name="textview">TextView</string>
+    <string name="prices">Price</string>
+    <string name="keys">Key</string>
+    <string name="get_activity">Get Activity</string>
+</resources>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textActivity"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="40dp"
+        android:text="@string/activity"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="@string/type"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/textActivity"
+        app:layout_constraintTop_toBottomOf="@id/textActivity" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="@string/get_activity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textKey" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="27dp"
+
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="64dp"
+        android:text="@string/myactivity"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="@string/price"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/textPrice"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/participants"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/textParticipants"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="96dp"
+        android:text="@string/types"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textParticipants"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="@string/textview"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/textType"
+        app:layout_constraintTop_toBottomOf="@+id/textType" />
+
+    <TextView
+        android:id="@+id/textPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="@string/prices"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/textParticipants"
+        app:layout_constraintTop_toBottomOf="@+id/textParticipants" />
+
+    <TextView
+        android:id="@+id/textKey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="@string/keys"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/textPrice"
+        app:layout_constraintTop_toBottomOf="@+id/textPrice" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/keys"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textKey"
+        app:layout_constraintEnd_toStartOf="@+id/textKey"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
